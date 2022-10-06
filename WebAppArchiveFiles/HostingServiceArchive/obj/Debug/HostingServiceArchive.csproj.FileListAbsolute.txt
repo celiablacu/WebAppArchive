@@ -1,0 +1,12 @@
+C:\Users\celia.blacu\source\repos\WebAppArchiveFiles\HostingServiceArchive\bin\Debug\HostingServiceArchive.exe.config
+C:\Users\celia.blacu\source\repos\WebAppArchiveFiles\HostingServiceArchive\bin\Debug\HostingServiceArchive.exe
+C:\Users\celia.blacu\source\repos\WebAppArchiveFiles\HostingServiceArchive\bin\Debug\HostingServiceArchive.pdb
+C:\Users\celia.blacu\source\repos\WebAppArchiveFiles\HostingServiceArchive\obj\Debug\HostingServiceArchive.csprojAssemblyReference.cache
+C:\Users\celia.blacu\source\repos\WebAppArchiveFiles\HostingServiceArchive\obj\Debug\HostingServiceArchive.ProjectInstaller.resources
+C:\Users\celia.blacu\source\repos\WebAppArchiveFiles\HostingServiceArchive\obj\Debug\HostingServiceArchive.csproj.GenerateResource.cache
+C:\Users\celia.blacu\source\repos\WebAppArchiveFiles\HostingServiceArchive\obj\Debug\HostingServiceArchive.csproj.CoreCompileInputs.cache
+C:\Users\celia.blacu\source\repos\WebAppArchiveFiles\HostingServiceArchive\obj\Debug\HostingServiceArchive.exe
+C:\Users\celia.blacu\source\repos\WebAppArchiveFiles\HostingServiceArchive\obj\Debug\HostingServiceArchive.pdb
+C:\Users\celia.blacu\source\repos\WebAppArchiveFiles\HostingServiceArchive\bin\Debug\Microsoft.Extensions.Features.dll
+C:\Users\celia.blacu\source\repos\WebAppArchiveFiles\HostingServiceArchive\bin\Debug\Microsoft.Extensions.Features.xml
+C:\Users\celia.blacu\source\repos\WebAppArchiveFiles\HostingServiceArchive\obj\Debug\HostingServiceArchive.csproj.CopyComplete
