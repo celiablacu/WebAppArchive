@@ -33,6 +33,7 @@ namespace WebAppArchiveFiles.Controllers
             {
                 if (file.ContentLength > 0)
                 {
+                    
                     string _FileName = Path.GetFileName(file.FileName);
                     string _path = Path.Combine(Server.MapPath("~/UploadedFiles"), _FileName);
                     file.SaveAs(_path);
@@ -43,7 +44,7 @@ namespace WebAppArchiveFiles.Controllers
                     string url = ConfigurationManager.AppSettings["WebServiceURL"];
                     HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
                     request.Method = "POST";
-                    request.ContentType = "application/x-www-form-urlencoded";
+                    request.ContentType = "application/soap+xml; charset=utf-8"; // "application /x-www-form-urlencoded";
 
                     byte[] fileData = null;
                     using (var binaryReader = new BinaryReader(Request.Files[0].InputStream))

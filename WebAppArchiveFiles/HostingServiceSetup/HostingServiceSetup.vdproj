@@ -21,7 +21,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_5B1E6BC24CDAA1C1DD6744A1B117A77B"
+        "MsmKey" = "8:_7717F75594334611DC8D6666A6BD49C8"
         "OwnerKey" = "8:_9236634479CE41759FE7150B8B18D7F6"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -34,19 +34,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0FDDC18A96CD0AE1576582EE9883C9B0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_9236634479CE41759FE7150B8B18D7F6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5B1E6BC24CDAA1C1DD6744A1B117A77B"
+        "OwnerKey" = "8:_7717F75594334611DC8D6666A6BD49C8"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_0FDDC18A96CD0AE1576582EE9883C9B0"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -67,6 +67,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -83,12 +91,76 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_07B439F1735A4CE0A18BBAC19093C3F2"
+            {
+            "Name" = "8:Primary output from HostingServiceArchive (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_9236634479CE41759FE7150B8B18D7F6"
+            "FileType" = "3:2"
+            "InstallAction" = "3:4"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_8F410CE9_B52E_47DB_A6F9_0FF9708C3D3C"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_645E57A499AD4550B4FD967BDD719E05"
+            {
+            "Name" = "8:Primary output from HostingServiceArchive (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_9236634479CE41759FE7150B8B18D7F6"
+            "FileType" = "3:2"
+            "InstallAction" = "3:3"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_8A2C88DC_F02B_4440_9DB0_B3CA533962E4"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_9EAFE6AF5CA64F608701D491593D3409"
+            {
+            "Name" = "8:Primary output from HostingServiceArchive (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_9236634479CE41759FE7150B8B18D7F6"
+            "FileType" = "3:2"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_A56BA8DF_10BE_4C46_A448_902A68F9D220"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_EDB1C173719045398E804773AA40192A"
+            {
+            "Name" = "8:Primary output from HostingServiceArchive (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_9236634479CE41759FE7150B8B18D7F6"
+            "FileType" = "3:2"
+            "InstallAction" = "3:2"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_5E5A3C63_B5FA_4762_99FD_C35E860A4452"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
         }
         "DefaultFeature"
         {
@@ -143,14 +215,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5B1E6BC24CDAA1C1DD6744A1B117A77B"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7717F75594334611DC8D6666A6BD49C8"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Microsoft.Extensions.Features, Version=6.0.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_5B1E6BC24CDAA1C1DD6744A1B117A77B"
+                    "_7717F75594334611DC8D6666A6BD49C8"
                     {
                     "Name" = "8:Microsoft.Extensions.Features.dll"
                     "Attributes" = "3:512"

@@ -1,0 +1,13 @@
+Prima noua -> data default e 1.06.2022 --> alocam unui angajat pe iulie si august
+Modificam --> noua data trebuie sa fie mai mica sau egala cu iulie (data alocarii)
+Data sfarsit >= ultima zi din august (nu poate fi altceva decat sfarsit de luna)
+
+--daca nu e alocat inca putem face orice dar data de sfarsit trebuie totusi sa fie mai mare decat data de start :D 
+
+Prima activa = se refera la intervalul selectat adica data sfarsit si data de start sa includa ziua de azi (la export)
+La import se refera la intervalul reprezentat de luna curenta 1-?31
+
+
+
+
+

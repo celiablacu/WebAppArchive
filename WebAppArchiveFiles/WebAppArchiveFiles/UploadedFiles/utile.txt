@@ -1,0 +1,24 @@
+Level1 : BusinessEntities - Employee
+Level2: Facade - Rapoarte, implementeaza o interfata intre accesul la db si cum se iau datele in model
+- are si o parte de securitate pt accesult la ele in Public.config - legatura intre interfete si niste end points
+Level3 : Model
+Level4: APP - Presentation
+
+View-urile in Resources
+
+CharismaHR.Core - zona comuna intre vechea aplicatie si partea de online
+
+--zone de framework
+Framework.sln
+TotalSoftApplication.sln
+
+--versiuni: CO-Branches
+
+--ClientSpecificAssemblies
+--CharismaAPI
+
+w3wp.exe - attach to process
+
+DatabasePortal\Scripts - scripturile de online
+
+Comune cu CharismaHCM - exista scripturi

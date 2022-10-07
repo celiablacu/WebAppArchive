@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostingServiceArchive", "Ho
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HostingServiceSetup", "HostingServiceSetup\HostingServiceSetup.vdproj", "{F1E9E590-FE03-4C24-8129-30ADC1716FD2}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WebAppArchiveFilesSetup", "WebAppArchiveFilesSetup\WebAppArchiveFilesSetup.vdproj", "{8AC98C5D-0A6F-41DB-983F-79A915F17816}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,8 @@ Global
 		{ED0C2EB5-7C89-4C9A-9A27-D37C86FCB9E5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F1E9E590-FE03-4C24-8129-30ADC1716FD2}.Debug|Any CPU.ActiveCfg = Debug
 		{F1E9E590-FE03-4C24-8129-30ADC1716FD2}.Release|Any CPU.ActiveCfg = Release
+		{8AC98C5D-0A6F-41DB-983F-79A915F17816}.Debug|Any CPU.ActiveCfg = Debug
+		{8AC98C5D-0A6F-41DB-983F-79A915F17816}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
