@@ -40,6 +40,11 @@ namespace WebAppArchiveFiles.Controllers
                     FileStream inputStream = new FileStream(_path, FileMode.Open);
 
                     //Send the file context to be archived as a stream
+                    WebServiceArchivingClient client = new WebServiceArchivingClient();
+
+                    // Use the 'client' variable to call operations on the service.
+                    client.Open();
+                    client.DoWork();
 
                     string url = ConfigurationManager.AppSettings["WebServiceURL"];
                     HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);

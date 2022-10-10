@@ -15,7 +15,6 @@ C:\Users\celia.blacu\Documents\GitHub\WebAppArchive\WebAppArchiveFiles\HostingSe
 C:\Users\celia.blacu\Documents\GitHub\WebAppArchive\WebAppArchiveFiles\HostingServiceArchive\bin\Debug\HostingServiceArchive.pdb
 C:\Users\celia.blacu\Documents\GitHub\WebAppArchive\WebAppArchiveFiles\HostingServiceArchive\bin\Debug\Microsoft.Extensions.Features.dll
 C:\Users\celia.blacu\Documents\GitHub\WebAppArchive\WebAppArchiveFiles\HostingServiceArchive\bin\Debug\Microsoft.Extensions.Features.xml
-C:\Users\celia.blacu\Documents\GitHub\WebAppArchive\WebAppArchiveFiles\HostingServiceArchive\obj\Debug\HostingServiceArchive.ProjectInstaller.resources
 C:\Users\celia.blacu\Documents\GitHub\WebAppArchive\WebAppArchiveFiles\HostingServiceArchive\obj\Debug\HostingServiceArchive.csproj.GenerateResource.cache
 C:\Users\celia.blacu\Documents\GitHub\WebAppArchive\WebAppArchiveFiles\HostingServiceArchive\obj\Debug\HostingServiceArchive.csproj.CoreCompileInputs.cache
 C:\Users\celia.blacu\Documents\GitHub\WebAppArchive\WebAppArchiveFiles\HostingServiceArchive\obj\Debug\HostingServiceArchive.csproj.CopyComplete
@@ -53,3 +52,4 @@ C:\Users\celia.blacu\Documents\GitHub\WebAppArchive\WebAppArchiveFiles\HostingSe
 C:\Users\celia.blacu\Documents\GitHub\WebAppArchive\WebAppArchiveFiles\HostingServiceArchive\bin\Debug\System.Web.Http.SelfHost.xml
 C:\Users\celia.blacu\Documents\GitHub\WebAppArchive\WebAppArchiveFiles\HostingServiceArchive\bin\Debug\App.config
 C:\Users\celia.blacu\Documents\GitHub\WebAppArchive\WebAppArchiveFiles\HostingServiceArchive\obj\Debug\HostingServiceArchive.csprojAssemblyReference.cache
+C:\Users\celia.blacu\Documents\GitHub\WebAppArchive\WebAppArchiveFiles\HostingServiceArchive\obj\Debug\Microsoft.ServiceModel.Samples.ProjectInstaller.resources

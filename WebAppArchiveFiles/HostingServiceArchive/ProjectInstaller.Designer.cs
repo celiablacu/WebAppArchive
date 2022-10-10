@@ -1,4 +1,4 @@
-﻿namespace HostingServiceArchive
+﻿namespace Microsoft.ServiceModel.Samples
 {
     partial class ProjectInstaller
     {

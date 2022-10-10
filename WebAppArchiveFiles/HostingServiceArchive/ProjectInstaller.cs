@@ -1,19 +1,26 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Configuration.Install;
-using System.Linq;
-using System.Threading.Tasks;
+using System.ServiceProcess;
 
-namespace HostingServiceArchive
+namespace Microsoft.ServiceModel.Samples
 {
     [RunInstaller(true)]
-    public partial class ProjectInstaller : System.Configuration.Install.Installer
-    {
+    public partial class ProjectInstaller : Installer
+    { 
+
+        private ServiceProcessInstaller process;
+        private ServiceInstaller service;
+
         public ProjectInstaller()
         {
             InitializeComponent();
+
+            process = new ServiceProcessInstaller();
+            process.Account = ServiceAccount.LocalSystem;
+            service = new ServiceInstaller();
+            service.ServiceName = "HostingServiceArchive";
+            Installers.Add(process);
+            Installers.Add(service);
         }
     }
 }
